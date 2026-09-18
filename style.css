@@ -1,0 +1,30 @@
+.brand-container {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Jarak antara logo dan teks */
+}
+
+.brand-logo {
+    width: 50px; /* Sesuaikan ukuran logo */
+    height: auto;
+    object-fit: contain;
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.nama-sekolah {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.alamat-sekolah {
+    font-size: 12px;
+    color: #e0e0e0;
+    margin: 0;
+}
